@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <Platforms>AnyCPU;x86</Platforms>
+    <StartupObject></StartupObject>
+    <RunCommand>$(MSBuildProgramFiles32)\dotnet\dotnet</RunCommand>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="..\Runtime\Altseed.XML" Link="Altseed.XML" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\Runtime\Altseed.dll" Link="Altseed.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="..\Runtime\Altseed_core.dll" Link="Altseed_core.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Altseed">
+      <HintPath>..\Runtime\Altseed.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Altseed.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Altseed_core.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

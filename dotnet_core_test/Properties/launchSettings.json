@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "dotnet_core_test": {
+      "commandName": "Project"
+    }
+  }
+}
