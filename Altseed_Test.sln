@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Altseed_Test", "Altseed_Test\Altseed_Test.csproj", "{62A41A5B-3C60-4461-B4A7-95BDB4CFC103}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotnet_core_test", "dotnet_core_test\dotnet_core_test.csproj", "{AEE0B7D8-5959-4F7F-B729-045ED911C9B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet_core_test", "dotnet_core_test\dotnet_core_test.csproj", "{AEE0B7D8-5959-4F7F-B729-045ED911C9B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseComponent", "BaseComponent\BaseComponent\BaseComponent.csproj", "{5E96B148-501F-48D1-B996-0DCE73A323C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,14 @@ Global
 		{AEE0B7D8-5959-4F7F-B729-045ED911C9B8}.Release|x64.Build.0 = Release|Any CPU
 		{AEE0B7D8-5959-4F7F-B729-045ED911C9B8}.Release|x86.ActiveCfg = Release|x86
 		{AEE0B7D8-5959-4F7F-B729-045ED911C9B8}.Release|x86.Build.0 = Release|x86
+		{5E96B148-501F-48D1-B996-0DCE73A323C9}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5E96B148-501F-48D1-B996-0DCE73A323C9}.Debug|x64.ActiveCfg = Debug|x86
+		{5E96B148-501F-48D1-B996-0DCE73A323C9}.Debug|x86.ActiveCfg = Debug|x86
+		{5E96B148-501F-48D1-B996-0DCE73A323C9}.Debug|x86.Build.0 = Debug|x86
+		{5E96B148-501F-48D1-B996-0DCE73A323C9}.Release|Any CPU.ActiveCfg = Release|x86
+		{5E96B148-501F-48D1-B996-0DCE73A323C9}.Release|x64.ActiveCfg = Release|x86
+		{5E96B148-501F-48D1-B996-0DCE73A323C9}.Release|x86.ActiveCfg = Release|x86
+		{5E96B148-501F-48D1-B996-0DCE73A323C9}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
